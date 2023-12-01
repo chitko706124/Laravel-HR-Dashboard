@@ -1,0 +1,179 @@
+body {
+    background: #edf2f6;
+}
+
+.text-theme {
+    color: #4CD195;
+}
+
+.form-control {
+    color: #000;
+}
+
+.btn-theme {
+    color: white;
+    background-color: #4CD195 !important;
+}
+
+.btn-theme:hover {
+    color: white;
+    background-color: #4CD195 !important;
+}
+
+.action-icon a {
+    padding: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* ----------- Header Menu ------------- */
+
+.header-menu {
+    padding: 15px 0 !important;
+}
+
+/* ------------ Bottom Menu ------------ */
+.bottom-menu a {
+    color: black;
+}
+
+.bottom-menu a p {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* -------------- Side Bar ------------------ */
+/* body {
+background: #eee;
+} */
+
+#side_nav {
+    background: #061F3C;
+    /* background-color: #1A202C; */
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+}
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+hr.h-color {
+    background: #eee;
+}
+
+.sidebar li.active {
+    background: #eee;
+    border-radius: 8px;
+}
+
+.sidebar li.active a,
+.sidebar li.active a:hover {
+    color: #000;
+}
+
+.sidebar li a {
+    color: #fff;
+}
+
+/* @media(max-width: 767px) { */
+#side_nav {
+    margin-left: -250px;
+    position: absolute;
+    min-height: 100vh;
+    z-index: 1;
+}
+
+#side_nav.activeSidebar {
+    margin-left: 0;
+}
+
+/* .scroll {
+height: calc(100% - 200px);
+overflow: scroll;
+} */
+
+
+/* --------------------- Data Table ------------------------------- */
+
+
+
+.pagination .page-item.active .page-link {
+    background: #4CD195 !important;
+    color: #1B6832;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: 75%;
+}
+
+.table td,
+.table th {
+    padding: 1rem;
+    vertical-align: middle;
+    border-top: 0.0625rem solid #dee2e6;
+}
+
+.monthselect,
+.yearselect {
+    display: inline;
+    width: 100%;
+    /* padding: .375rem .75rem; */
+    /* font-size: 1rem; */
+    font-size: 12px;
+    padding: 1px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #4f4f4f;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: all .1s linear;
+    box-shadow: none;
+}
+
+table.dataTable span.highlight {
+    background-color: #FFFF88;
+    border-radius: 0.28571429rem;
+}
+
+table.dataTable span.column_highlight {
+    background-color: #ffcc99;
+    border-radius: 0.28571429rem;
+}
+
+/* -------------------------------- Preview Img ------------------------------ */
+
+.preview_img img {
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.thumbnail_profile {
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.profile_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    padding: 5px;
+    border: 1px solid #4CD195;
+    background-size: auto;
+
+}
